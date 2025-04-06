@@ -24,7 +24,18 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 10 },
-  title: { fontSize: 24, fontWeight: 'bold', marginBottom: 10 },
-  product: { padding: 10, borderBottomWidth: 1, borderBottomColor: '#ccc' },
+  container: { 
+    flex: 1, 
+    padding: 10 
+  },
+  title: { 
+    fontSize: 24, 
+    fontWeight: 'bold', 
+    marginBottom: 10 
+  },
+  product: { 
+    padding: 10, 
+    borderBottomWidth: 1, 
+    borderBottomColor: '#ccc' 
+  },
 });
