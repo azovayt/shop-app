@@ -1,6 +1,6 @@
-import { View, Text, TextInput, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from 'react-native';
 
-export default function CategoriScreen() {
+export default function CategoriesScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Categori</Text>
