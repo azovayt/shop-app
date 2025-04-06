@@ -6,7 +6,7 @@ export default function BagScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>My Bag</Text>
+      <Text style={styles.title}>My Bag Pages</Text>
       <Button
         title="Proceed to Checkout"
         onPress={() => navigation.navigate('checkout')}
